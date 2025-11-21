@@ -1,0 +1,25 @@
+#sidebar{
+    display: block;
+    height: 100vh;
+    width: 250px;
+    z-index: 5;
+    position: relative;
+}
+
+#btnMenu,#btnClose{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 10px;
+    border-radius: 25%;
+    z-index: 10;
+    display: none;
+    font-size: 20px;
+    color: #000;
+}
+
+@media screen and (max-width:600px) {
+    #btnMenu,#btnClose{
+        display: block;
+    }
+}

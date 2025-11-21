@@ -1,0 +1,5 @@
+gifs-home-page{
+    overflow: hidden;
+    max-height: 100vh;
+    overflow-y: auto;
+}
